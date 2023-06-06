@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link href="./css/icons.css" rel="stylesheet"/>
+    <title></title>
+</head>
+<body>
+
+    <div class="overlay"></div>
+    <header>
+        <div class="top-bar">
+            <div class="main-container flex-top-bar">
+                <div class="left-top-bar">
+                    <ul class="social-top-bar">
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-facebook white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-twitter white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-linkedin white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-google-plus white"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="dropdown-header-text"><span> Language <i class="fa fa-caret-down"></i></span> </a>
+                            <ul class="sub-menu">
+                                <li><a href="#"> English </a></li>
+                                <li><a href="#"> Arabic </a></li>
+                                <li><a href="#"> German </a></li>
+                                <li><a href="#"> Greek </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="dropdown-header-text"><span> Currency <i class="fa fa-caret-down"></i></span> </a>
+                            <ul class="sub-menu">
+                                <li><a href="#">  USD  </a></li>
+                                <li><a href="#">  EUR  </a></li>
+                                <li><a href="#">  INR  </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-top-bar">
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-user orange"></i>
+                        <span>Register</span>
+                    </a>
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-sign-in orange"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-home orange"></i>
+                        <span>My Dashboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-block"></div>
+        <div class="header-block">
+            <div class="main-container flex-header">
+                <div class="burger-menu">
+                    <div class="bar">
+                        <span class="bar-1"> </span>
+                        <span class="bar-2"> </span>
+                        <span class="bar-3"> </span>
+                      </div>
+                </div>
+                <div class="header-logo-block">
+                    <a href="#" class="logotype-block">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header-navigation-block">
+                    <nav>
+                        <ul class="navigation header-menu">
+                            <li>
+                                <a href="./homepage.html" class="header-menu-link active">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Widgets</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Pages</span>
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Cleaning</a></li>
+                                    <li><a href="#">Washing</a></li>
+                                    <li><a href="#">Dtying</a></li>
+                                    <li><a href="#">Crashing</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./search.html" class="header-menu-link">
+                                    <span>Categories</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Cleaning</a></li>
+                                    <li><a href="#">Washing</a></li>
+                                    <li><a href="#">Dtying</a></li>
+                                    <li><a href="#">Crashing</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="add-listing">
+                                    <span><i class="fa fa-plus"></i> Add Listing</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header-page">
+            <div class="main-container flex-page">
+                <div class="what-page">Search</div>
+                <div class="bread-crumbs">
+                    <a href="#">Home /</a>
+                    <a href="#">Categories /</a>
+                    <a href="#" class="active">Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-search-bar">
+            <div class="main-container">
+                <div class="search-block">
+                    <div class="keywords-input">
+                        <input type="text" class="search-input" placeholder="Phrase or Keywords">
+                    </div>
+                    <div class="search-button-block">
+                        <a href="#" class="search-button">Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-search-category">
+            <div class="main-container">
+                <div class="flex-slider-ui">
+                    <i class="glyphicon glyphicon-th"></i>
+                    <div class="slider-ui-category"></div>
+                    <i class="glyphicon glyphicon-th-large"></i>
+                </div>
+                
+                <div class="flex-search-categories">
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <span class="last-price">$79.74</span>
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                        <a href="#" class="button-details">
+                            <i class="glyphicon glyphicon-arrow-right"></i>
+                            <span> See Details</span>
+                        </a>
+                    </div>
+                    <div class="search-category-item">
+                        <a href="#">
+                            <div class="s-category-img-block">
+                                <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                            </div>
+                            <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                        </a>
+                        <div class="price-category-item">
+                            <strong>$9.59</strong>
+                            <span class="buy-now">Buy It Now</span>
+                        </div>
+                        <a href="#" class="button-details">
+                            <i class="glyphicon glyphicon-arrow-right"></i>
+                            <span> See Details</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="main-container">
+            <div class="top-bar-footer">
+                <a href="#" class="btn-foot-nav">How It Works</a>
+                <a href="#" class="btn-foot-nav mobile-none">About Us</a>
+                <a href="#" class="btn-foot-nav">Pricing</a>
+                <a href="#" class="btn-foot-nav">Listing Categories</a>
+                <a href="#" class="btn-foot-nav">Privacy Policy</a>
+                <a href="#" class="btn-foot-nav">Terms Of Conditions</a>
+                <a href="#" class="btn-foot-nav mobile-none">Blog</a>
+                <a href="#" class="btn-foot-nav mobile-none">Contact Us</a>
+                <a href="#" class="btn-foot-nav mobile-none">Premium Ad</a>
+            </div>
+        </div>
+        <div class="footer-underline"></div>
+        <div class="main-container">
+            <div class="footer-info">
+                <div>
+                    <h2 class="bizdire-footer">BIZDIRE</h2>
+                    <p class="text-footer space-text">At vero eos et accusamus et iusto odio dignissimos ducimus voluptatum</p>
+                    <div class="title-footer">Social Icons</div>
+                    <ul class="footer-social-icons">
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-rss"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Popular Listings</div>
+                    <ul class="popular-list">
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Educational college</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Free Lancer for Web Developer</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> 2BHK Flat In Hyderabad</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Best Restaurants in Hyderabad</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> New Women Shopping Mall</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Get In Touch</div>
+                    <ul class="popular-list">
+                        <li><a href="#" class="text-footer"><i class="fa fa-home me-3 text-secondary"></i> New York, NY 10012, US-52014</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-envelope me-3 fs-12 text-secondary"></i> info12323@example.com</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-phone me-3 text-secondary"></i> + 01 234 567 88, + 01 234 567 88</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-print me-3 text-secondary"></i> + 01 234 567 89, + 01 234 567 89</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Subscribe</div>
+                    <form action="#">
+                        <div class="footer-input-block">
+                            <input type="text" class="footer-input" placeholder="Name">
+                        </div>
+                        <div class="footer-input-block">
+                            <input type="text" class="footer-input" placeholder="Email">
+                        </div>
+                        <div class="footer-subscribe">
+                            <a href="#" class="footer-subscribe-button">Subscribe</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-underline"></div>
+        <div class="main-container">
+            <div class="copyright">
+                Copyright © 2022<a href="#" class="orange"> Bizdire</a>. Designed  with <span class="fa fa-heart orange"></span> by <a href="#" class="orange">Spruko</a> All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/jquery.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script src="./js/main.js"></script>
+
+
+
+    <script>
+        $( document ).ready(function() {
+            $('.slider-ui-category').slider({
+                max: 8,
+                value: 3,
+                slide: function(event, ui){
+                    if (ui.value == 0) {
+                        $('.search-category-item').css('width', '6.25%'); 
+                        $('.s-category-img').css('height', '55px');
+                    }
+                    else if (ui.value == 1) {
+                        $('.search-category-item').css('width', '7.14%'); 
+                        $('.s-category-img').css('height', '70px');
+                    }
+                    else if (ui.value == 2) {
+                        $('.search-category-item').css('width', '8.33%'); 
+                        $('.s-category-img').css('height', '90px');
+                    }
+                    else if (ui.value == 3) {
+                        $('.search-category-item').css('width', '11.1%'); 
+                        $('.s-category-img').css('height', '120px');
+                    }
+                    else if (ui.value == 4) {
+                        $('.search-category-item').css('width', '12.5%'); 
+                        $('.s-category-img').css('height', '130px');
+                    }
+                    else if (ui.value == 5) {
+                        $('.search-category-item').css('width', '14.27%');
+                        $('.s-category-img').css('height', '145px'); 
+                    }
+                    else if (ui.value == 6) {
+                        $('.search-category-item').css('width', '16.65%'); 
+                        $('.s-category-img').css('height', '165px'); 
+                    }
+                    else if (ui.value == 7) {
+                        $('.search-category-item').css('width', '19.95%'); 
+                        $('.s-category-img').css('height', '180px'); 
+                    }
+                    else if (ui.value == 8) {
+                        $('.search-category-item').css('width', '24.95%'); 
+                        $('.s-category-img').css('height', '215px'); 
+                    }
+                }
+
+            });
+        
+            $('.slider').slider({
+                values: [0, 100],
+                slide: function(event, ui){
+                    $('.expand-me').css('width', ui.value + '%');
+                } 
+            });
+        });
+
+    </script>
+</body>
+</html>

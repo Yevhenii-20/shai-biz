@@ -1,0 +1,96 @@
+.faq-header_section {
+    background: url(../img/faq-banner.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.faq-header_container {
+    background: linear-gradient(87deg, rgba(0, 20, 142, 0.86), rgba(0, 20, 142, 0.46) 100%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.faq-header_container h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.faq-section {
+    background: #f7f7fb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styles for Accordion */ 
+
+.toggle-title {
+    position: relative;
+    display: block;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    cursor: pointer;
+    font-weight:200;
+
+}
+.toggle-inner {
+    padding: 15px 20px;
+    display: none;
+    border-top: 1px solid #eee;
+}
+
+.title-name {
+    color: #00148e;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.title-name span:nth-child(2) {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.toggle {
+    background: #fff;
+    border: 1px solid #eee;
+    margin: 10px;
+}
+
+.toggle-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3f3e50;
+}
+
+.toggle-inner p:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .faq-header_container, .faq-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .faq-header_container h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title-name {
+        font-size: 14px;
+    }
+    .title-name span:nth-child(2) {
+        padding-left: 10px;
+    }
+}
+

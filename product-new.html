@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="./css/icons.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <title></title>
+</head>
+<body>
+
+    <div class="overlay"></div>
+    <header>
+        <div class="top-bar">
+            <div class="main-container flex-top-bar">
+                <div class="left-top-bar">
+                    <ul class="social-top-bar">
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-facebook white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-twitter white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-linkedin white"></i></a>
+                        </li>
+                        <li>
+                            <a class="social-icon white"><i class="fa fa-google-plus white"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="dropdown-header-text"><span> Language <i class="fa fa-caret-down"></i></span> </a>
+                            <ul class="sub-menu">
+                                <li><a href="#"> English </a></li>
+                                <li><a href="#"> Arabic </a></li>
+                                <li><a href="#"> German </a></li>
+                                <li><a href="#"> Greek </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="dropdown-header-text"><span> Currency <i class="fa fa-caret-down"></i></span> </a>
+                            <ul class="sub-menu">
+                                <li><a href="#">  USD  </a></li>
+                                <li><a href="#">  EUR  </a></li>
+                                <li><a href="#">  INR  </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right-top-bar">
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-user orange"></i>
+                        <span>Register</span>
+                    </a>
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-sign-in orange"></i>
+                        <span>Login</span>
+                    </a>
+                    <a href="#" class="reg-link">
+                        <i class="fa fa-home orange"></i>
+                        <span>My Dashboard</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-block"></div>
+        <div class="header-block">
+            <div class="main-container flex-header">
+                <div class="burger-menu">
+                    <div class="bar">
+                        <span class="bar-1"> </span>
+                        <span class="bar-2"> </span>
+                        <span class="bar-3"> </span>
+                      </div>
+                </div>
+                <div class="header-logo-block">
+                    <a href="#" class="logotype-block">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header-navigation-block">
+                    <nav>
+                        <ul class="navigation header-menu">
+                            <li>
+                                <a href="./homepage.html" class="header-menu-link active">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>About Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Widgets</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Pages</span>
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Cleaning</a></li>
+                                    <li><a href="#">Washing</a></li>
+                                    <li><a href="#">Dtying</a></li>
+                                    <li><a href="#">Crashing</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Blog</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./search.html" class="header-menu-link">
+                                    <span>Categories</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Cleaning</a></li>
+                                    <li><a href="#">Washing</a></li>
+                                    <li><a href="#">Dtying</a></li>
+                                    <li><a href="#">Crashing</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="header-menu-link">
+                                    <span>Contact Us</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="add-listing">
+                                    <span><i class="fa fa-plus"></i> Add Listing</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-product-content">
+        <div class="main-container flex-product-sections">
+            <div class="product-left-sections">
+                <div class="card-pruduct product-box">
+                    <div class="ribbon ribbon-right">
+                        <span>featured</span>
+                    </div>
+                    <div class="product-container-box">
+                        <h3 class="product-title-box f-20">Bizdire University</h3>
+                        <div class="info-about-product">
+                            <div class="text-info-product">
+                                <i class="icon icon-briefcase"></i>
+                                <span>Education</span>
+                            </div>
+
+                            <div class="text-info-product">
+                                <i class="icon icon-location-pin"></i>
+                                <span> USA</span>
+                            </div>
+
+                            <div class="text-info-product">
+                                <i class="icon icon-calendar"></i>
+                                <span> 5 hours ago</span>
+                            </div>
+
+                            <div class="text-info-product">
+                                <div class="starts-customer stars-post">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <span> 4.0</span>
+                            </div>
+
+
+                            <div class="text-info-product">
+                                <i class="icon icon-eye"></i>
+                                <span> 765</span>
+                            </div>
+
+                            <div class="text-info-product">
+                                <i class="fa fa-heart text-danger"></i>
+                                <span> 135 </span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide-product-block">
+                                <div class="ribbon-price">$539</div>
+                                <div class="big-slider-product">
+                                    <div class="big-slider-item">
+                                        <img src="./img/image1.webp" class="product-img" alt="">
+                                    </div>
+                                    <div class="big-slider-item">
+                                        <img src="./img/image2.webp" class="product-img" alt="">
+                                    </div>
+                                    <div class="big-slider-item">
+                                        <img src="./img/image3.webp" class="product-img" alt="">
+                                    </div>
+                                    <div class="big-slider-item">
+                                        <img src="./img/image2.webp" class="product-img" alt="">
+                                    </div>
+                                    <div class="big-slider-item">
+                                        <img src="./img/image3.webp" class="product-img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-slider-product">
+                                <div class="small-slider-item">
+                                    <img src="./img/image1.webp" class="small-product-img" alt="">
+                                </div>
+                                <div class="small-slider-item">
+                                    <img src="./img/image2.webp" class="small-product-img" alt="">
+                                </div>
+                                <div class="small-slider-item">
+                                    <img src="./img/image3.webp" class="small-product-img" alt="">
+                                </div>
+                                <div class="small-slider-item">
+                                    <img src="./img/image2.webp" class="small-product-img" alt="">
+                                </div>
+                                <div class="small-slider-item">
+                                    <img src="./img/image3.webp" class="small-product-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons-block product-box">
+                    <div class="product-container-box flex-buttons">
+                        <!--<a href="#" class="button-prod ebay-button">
+                            <i class="glyphicon glyphicon-arrow-right"></i>
+                            <span>See Details</span>
+                            on eBay
+                        </a>!-->
+
+                        <a href="#" class="button-prod ebay-button buy-ebay">
+                            <i class="glyphicon glyphicon-arrow-right"></i>
+                            <span class="buy-on">
+                                <b>BUY NOW</b> on eBay
+                                <span class="price-ebay">RS.1000</span>
+                            </span>
+                            <i class="glyphicon glyphicon-arrow-right be-right"></i>
+                        </a> 
+                        
+                        <a href="#" class="button-prod amazon-button">
+                            <i class="glyphicon glyphicon-search"></i>
+                            <span class="search-on">search on</span>
+                            <img src="./img/amazon.webp" alt="">
+                        </a>
+
+                        <a href="#" class="button-prod ali-button">
+                            <i class="glyphicon glyphicon-search"></i>
+                            <span class="search-on">search on</span>
+                            <img src="./img/ali.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="best-price product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Best Price</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <canvas id="myChart"></canvas>                       
+                    </div>
+                </div>
+
+                <div class="overview product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Overview</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <p class="product-text p-15">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atcorrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p class="product-text p-15">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoraliz the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble thena bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+                        <div>
+                            <div class="product-title-box p-title-box">Contact Info</div>
+                            <div class="flex-contact-info">
+                                <div class="contact-info-block">
+                                    <a href="#" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-map"></i></span>
+                                        <p>Mp-214, New York, NY 10012, US-52014</p>
+                                    </a>
+                                    <a href="mailto:spruko123@gmail.com" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-envelope"></i></span>
+                                        <p>spruko123@gmail.com</p>
+                                    </a>
+                                </div>
+                                <div class="contact-info-block">
+                                    <a href="tel:023565724587" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-phone"></i></span>
+                                        <p class="orange">0-235-657-24587</p>
+                                    </a>
+                                    <a href="#" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-link"></i></span>
+                                        <p class="orange">https://spruko.com/</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="product-title-box p-title-box">More Business Info</div>
+                            <table class="table-busines-info">
+                                <tr>
+                                    <td class="product-text bold td-small">Established Year</td>
+                                    <td class="product-text td-big">1981</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-text bold td-small">Services</td>
+                                    <td class="product-text td-big">Education, Courses</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-text bold td-small">Payment Methods</td>
+                                    <td class="product-text td-big">VISA, Mastercard, Discover, American Express</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-text bold td-small">Fax</td>
+                                    <td class="product-text td-big">+25 485-9865-85</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-text bold td-small">TollFree</td>
+                                    <td class="product-text td-big">+25 485-9865-85</td>
+                                </tr>
+                                <tr>
+                                    <td class="product-text bold td-small">Certification</td>
+                                    <td class="product-text td-big">ISO Certified</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="business-id-container">
+                        <p class="product-text">Business ID : #8256358</p>
+                        <div class="product-text">Posted By <a href="#" class="bold product-text">Individual</a> / 21st Dec 2019 </div>
+                    </div>
+                    <div class="overview-button-container">
+                        <a href="#" class="share-icon icons-button">
+                            <i class="icon icon-share"></i>
+                            <span>Share Ad</span>
+                        </a>
+                        <a href="#" class="like-icon icons-button">
+                            <i class="icon icon-heart"></i>
+                            <span>678</span>
+                        </a>
+                        <a href="#" class="print-icon icons-button">
+                            <i class="icon icon-printer"></i>
+                            <span>Print</span>
+                        </a>
+                        <a href="#" class="report-icon icons-button">
+                            <i class="icon icon-exclamation"></i>
+                            <span>Report Abuse</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="related-posts product-box-post">
+                    <h3 class="product-title-big">Related Posts</h3>
+                    <div class="flex-post">
+                        <div class="flex-post slider-related-post">
+                            <div class="post-block related-post-block">
+                                <a href="#" class="post-img-block">
+                                    <div class="card-opacity"></div>
+                                    <div>
+                                        <img src="./img/business-post.jpeg" class="post-img" alt="">
+                                    </div>
+                                    <span class="post-area">Education</span>
+                                    <div class="post-buttons-block">
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa-pencil"></i>
+                                        </button>
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa fa-heart-o"></i>
+                                        </button>
+                                    </div>
+                                    <div class="ribbon">
+                                        <span>Negotiable</span>
+                                    </div>
+                                </a>
+                            
+                                <div class="product-container-box">
+                                    <div class="starts-customer stars-post">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p class="post-name">Record Writing </p>
+                                    <div class="flex-post-info">
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-location-pin"></i>
+                                                <span>USA</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-user"></i>
+                                                <span>Clara Pixley</span>
+                                            </div>
+                                        </div>
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-event"></i>
+                                                <span> 2 hours ago</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-phone"></i>
+                                                <span> 785 485 965</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post-block related-post-block">
+                                <a href="#" class="post-img-block">
+                                    <div class="card-opacity"></div>
+                                    <div>
+                                        <img src="./img/business-post.jpeg" class="post-img" alt="">
+                                    </div>
+                                    <span class="post-area">Education</span>
+                                    <div class="post-buttons-block">
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa-pencil"></i>
+                                        </button>
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa fa-heart-o"></i>
+                                        </button>
+                                    </div>
+                                    <div class="ribbon">
+                                        <span>Negotiable</span>
+                                    </div>
+                                </a>
+                            
+                                <div class="product-container-box">
+                                    <div class="starts-customer stars-post">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p class="post-name">Record Writing </p>
+                                    <div class="flex-post-info">
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-location-pin"></i>
+                                                <span>USA</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-user"></i>
+                                                <span>Clara Pixley</span>
+                                            </div>
+                                        </div>
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-event"></i>
+                                                <span> 2 hours ago</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-phone"></i>
+                                                <span> 785 485 965</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post-block related-post-block">
+                                <a href="#" class="post-img-block">
+                                    <div class="card-opacity"></div>
+                                    <div>
+                                        <img src="./img/business-post.jpeg" class="post-img" alt="">
+                                    </div>
+                                    <span class="post-area">Education</span>
+                                    <div class="post-buttons-block">
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa-pencil"></i>
+                                        </button>
+                                        <button type="button" class="post-button">
+                                            <i class="fa fa fa-heart-o"></i>
+                                        </button>
+                                    </div>
+                                    <div class="ribbon">
+                                        <span>Negotiable</span>
+                                    </div>
+                                </a>
+                            
+                                <div class="product-container-box">
+                                    <div class="starts-customer stars-post">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p class="post-name">Record Writing </p>
+                                    <div class="flex-post-info">
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-location-pin"></i>
+                                                <span>USA</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-user"></i>
+                                                <span>Clara Pixley</span>
+                                            </div>
+                                        </div>
+                                        <div class="post-info-block">
+                                            <div class="post-info">
+                                                <i class="icon icon-event"></i>
+                                                <span> 2 hours ago</span>
+                                            </div>
+                                            <div class="post-info">
+                                                <i class="icon icon-phone"></i>
+                                                <span> 785 485 965</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rating-reviews product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Rating And Reviews</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <div class="progress-block">
+                            <div class="progress-stars">
+                                <span>5</span>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-success w-100">
+                                    <p class="number-progress-bar">9,232</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block">
+                            <div class="progress-stars">
+                                <span>4</span>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-success w-80">
+                                    <p class="number-progress-bar">8,125</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block">
+                            <div class="progress-stars">
+                                <span>3</span>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-success w-60">
+                                    <p class="number-progress-bar">6,263</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block">
+                            <div class="progress-stars">
+                                <span>2</span>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-success w-40">
+                                    <p class="number-progress-bar">3,463</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-block">
+                            <div class="progress-stars">
+                                <span>1</span>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-success w-25">
+                                    <p class="number-progress-bar">1,456</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline-product"></div>
+                    <div class="product-container-box">
+                        <h3 class="product-title-box">3 Reviews</h3>
+                        <div class="review-block">
+                            <div class="review-container">
+                                <div class="product-container-box flex-review">
+                                    <div>
+                                        <img src="./img/owner.jpeg" class="review-img" alt="">
+                                    </div>
+                                    <div class="right-review">
+                                        <div class="flex-author">
+                                            <div class="author-review-block">
+                                                <p class="author-review">Joanne Scott</p>
+                                                <i class="fa fa-check-circle-o verify"></i>
+                                            </div>
+                                            <div class="author-stars">
+                                                <span>4.5</span>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-author">
+                                            <div class="info-review">
+                                                <i class="fa fa-calendar"></i>
+                                                <span>Dec 21st</span>
+                                            </div>
+                                            <div class="info-review">
+                                                <i class=" ms-3 fa fa-clock-o"></i>
+                                                <span>13.00</span>
+                                            </div>
+                                            <div class="info-review">
+                                                <i class=" ms-3 fa fa-map-marker"></i>
+                                                <span>Brezil</span>
+                                            </div>
+                                        </div>
+                                        <p class="review"> Lorem ipsum dolor sit amet, quis Neque porro quisquam est, nostrud exercitation ullamco laboris commodo consequat. </p>
+                                        <div class="review-buttons-block">
+                                            <div>
+                                                <a href="#" class="badge-button active">Helpful</a>
+                                                <a href="#" class="badge-button">Comment</a>
+                                                <a href="#" class="badge-button">Report</a>
+                                            </div>
+                                            <div class="flex-rating">
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                </button>
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-container-box flex-review comment-review">
+                                    <div>
+                                        <img src="./img/owner.jpeg" class="review-img" alt="">
+                                    </div>
+                                    <div class="right-review">
+                                        <div class="flex-author">
+                                            <div class="author-review-block">
+                                                <p class="author-review">Joanne Scott</p>
+                                                <i class="fa fa-check-circle-o verify"></i>
+                                            </div>
+                                        </div>
+                                        <p class="review"> Lorem ipsum dolor sit amet, quis Neque porro quisquam est, nostrud exercitation ullamco laboris commodo consequat. </p>
+                                        <div class="review-buttons-block">
+                                            <div>
+                                                <a href="#" class="badge-button">Comment</a>
+                                            </div>
+                                            <div class="flex-rating">
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                </button>
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-block">
+                            <div class="review-container">
+                                <div class="product-container-box flex-review">
+                                    <div>
+                                        <img src="./img/owner.jpeg" class="review-img" alt="">
+                                    </div>
+                                    <div class="right-review">
+                                        <div class="flex-author">
+                                            <div class="author-review-block">
+                                                <p class="author-review">Joanne Scott</p>
+                                                <i class="fa fa-check-circle-o verify"></i>
+                                            </div>
+                                            <div class="author-stars">
+                                                <span>4.5</span>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="flex-author">
+                                            <div class="info-review">
+                                                <i class="fa fa-calendar"></i>
+                                                <span>Dec 21st</span>
+                                            </div>
+                                            <div class="info-review">
+                                                <i class=" ms-3 fa fa-clock-o"></i>
+                                                <span>13.00</span>
+                                            </div>
+                                            <div class="info-review">
+                                                <i class=" ms-3 fa fa-map-marker"></i>
+                                                <span>Brezil</span>
+                                            </div>
+                                        </div>
+                                        <p class="review"> Lorem ipsum dolor sit amet, quis Neque porro quisquam est, nostrud exercitation ullamco laboris commodo consequat. </p>
+                                        <div class="review-buttons-block">
+                                            <div>
+                                                <a href="#" class="badge-button active">Helpful</a>
+                                                <a href="#" class="badge-button">Comment</a>
+                                                <a href="#" class="badge-button">Report</a>
+                                            </div>
+                                            <div class="flex-rating">
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                </button>
+                                                <button type="button" class="button-rating">
+                                                    <i class="fa fa-thumbs-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="add-review product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Add a Review</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <p class="text-add">Add Your Rating for the Business</p>
+                        <div class="starts-customer stars-review">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <h3 class="product-title-box">Review</h3>
+                        <form action="#" class="review-form">
+                            <div>
+                                <input type="text" class="review-input" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <input type="text" class="review-input" placeholder="Email Address">
+                            </div>
+                            <div>
+                                <textarea name="" class="review-input"  rows="6" placeholder="Write Review"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" class="review-submit" value="Send Reply">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="product-rigth-sections">
+                <div class="company-user product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Company User</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <div class="cm-user-block">
+                            <div>
+                                <img src="./img/logo-product.png" alt="">
+                                <div class="cm-user-name">Robert McLean</div>
+                                <div class="cm-user-since">Member Since November 2008</div>
+                                <div class="cm-user-id">Listing Id <strong>365241</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline-product"></div>
+                    <div class="product-container-box">
+                        <div class="cm-user-button-block">
+                            <a href="#" class="cm-user-button active">Contact</a>
+                            <a href="#" class="cm-user-button timings-button">Timings</a>
+                        </div>
+                        <div class="right-contact-info">
+                            <div class="product-title-box p-title-box">Contact Info</div>
+                            <div class="flex-contact-info">
+                                <div class="contact-info-block">
+                                    <a href="#" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-map"></i></span>
+                                        <p>Mp-214, New York, NY 10012, US-52014</p>
+                                    </a>
+                                    <a href="mailto:spruko123@gmail.com" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-envelope"></i></span>
+                                        <p>spruko123@gmail.com</p>
+                                    </a>
+                                </div>
+                                <div class="contact-info-block">
+                                    <a href="tel:023565724587" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-phone"></i></span>
+                                        <p class="orange">0-235-657-24587</p>
+                                    </a>
+                                    <a href="#" class="contact-info-link product-text p-15">
+                                        <span><i class="fa fa-link"></i></span>
+                                        <p class="orange">https://spruko.com/</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline-product"></div>
+                    <div class="overview-button-container">
+                        <a href="#" class="icons-button chat-button">
+                            <i class="fa fa-envelope"></i> 
+                            <span>Chat</span>
+                        </a>
+                        <a href="#" class="icons-button contact-button">
+                            <i class="fa fa-user"></i> 
+                            <span>Contact Me</span>
+                        </a>
+                        <a href="#" class="icons-button listing-button">
+                            <i class="fa fa-eye"></i>
+                            <span>All Listings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="listing-location product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Listing location</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <a href="#" class="contact-info-link product-text">
+                            <span><i class="fa fa-map"></i></span>
+                            <p>Mp-214, New York, NY 10012, US-52014</p>
+                        </a>
+                    </div>
+                    <div class="underline-product"></div>
+                    <div class="overview-button-container">
+                        <a href="#" class="icons-button direction-button">
+                            <span>Get Direction</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="keywords product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Keywords</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <div class="keywords-block">
+                            <a href="#" class="keywords-button">Study</a>
+                            <a href="#" class="keywords-button">Education</a>
+                            <a href="#" class="keywords-button">Coaching</a>
+                            <a href="#" class="keywords-button">University</a>
+                            <a href="#" class="keywords-button">Classes</a>
+                            <a href="#" class="keywords-button">Coaching</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="listing-owner product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Listing Owner</h3>
+                    </div>
+                    <div class="product-container-box owner-block">
+                        <div>
+                            <img src="./img/owner.jpeg" class="owner-img" alt="">
+                        </div>
+                        <p class="cm-user-name">Lilly Jones</p>
+                        <p class="cm-user-since">Listing Owner</p>
+                        <div class="owner-social-block">
+                            <a href="#" class="owner-social"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="owner-social"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="owner-social"><i class="fa fa-google"></i></a>
+                            <a href="#" class="owner-social"><i class="fa fa-dribbble"></i></a>
+                            <a href="#" class="owner-social"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <div class="underline-product"></div>
+                    <div class="product-container-box owner-flex-button">
+                        <a href="#" class="icons-button contact-button">
+                            <i class="fa fa-phone"></i> 
+                            <span>Contact Me</span>
+                        </a>
+                        <a href="#" class="icons-button listing-button">
+                            <i class="fa fa-eye"></i>
+                            <span> See All Posts</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="details-shares product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Details Shares Thorugh</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <div class="flex-social">
+                            <a href="#" class="detail-social bg-facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="detail-social bg-twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="detail-social bg-google"><i class="fa fa-google"></i></a>
+                            <a href="#" class="detail-social bg-dribble"><i class="fa fa-dribbble"></i></a>
+                            <a href="#" class="detail-social bg-pinterest"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-listing product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Search Listings</h3>
+                    </div>
+                    <div class="product-container-box">
+                        <form action="#" class="review-form">
+                            <div>
+                                <input type="text" class="listing-input" placeholder="What are you looking for?">
+                            </div>
+                            <div class="select-category">
+                                <select name="country" id="select-countries" class="form-select select2-show-search">
+                                    <option value="1" selected>Select Category</option>
+                                    <option value="2">RealEstate</option>
+                                    <option value="3">Restaurant</option>
+                                    <option value="4">Beauty</option>
+                                    <option value="5">Jobs</option>
+                                    <option value="6">Services</option>
+                                    <option value="7">AutoMobile</option>
+                                    <option value="8">Education</option>
+                                    <option value="9">Electronics</option>
+                                    <option value="10">Pets & Animals</option>
+                                    <option value="11">Computer</option>
+                                    <option value="12">Mobile</option>
+                                    <option value="13">Events</option>
+                                    <option value="14">Travel</option>
+                                    <option value="15">Clothing</option>
+                                </select>
+                            </div>
+                            <div>
+                                <input type="submit" class="listing-submit" value="Search">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="recent-business-posts product-box">
+                    <div class="product-title-container">
+                        <h3 class="product-title-box">Recent Business Posts</h3>
+                    </div>
+                    <div class="post-slider">
+                        <div>
+                            <div class="product-container-box">
+                                <div class="post-block">
+                                    <a href="#" class="post-img-block">
+                                        <div class="card-opacity"></div>
+                                        <div>
+                                            <img src="./img/business-post.jpeg" class="post-img" alt="">
+                                        </div>
+                                        <span class="post-area">Education</span>
+                                        <div class="post-buttons-block">
+                                            <button type="button" class="post-button">
+                                                <i class="fa fa-pencil"></i>
+                                            </button>
+                                            <button type="button" class="post-button">
+                                                <i class="fa fa fa-heart-o"></i>
+                                            </button>
+                                        </div>
+                                        <div class="ribbon">
+                                            <span>Negotiable</span>
+                                        </div>
+                                    </a>
+        
+                                    <div class="product-container-box">
+                                        <div class="starts-customer stars-post">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="post-name">Record Writing </p>
+                                        <div class="flex-post-info">
+                                            <div class="post-info-block">
+                                                <div class="post-info">
+                                                    <i class="icon icon-location-pin"></i>
+                                                    <span>USA</span>
+                                                </div>
+                                                <div class="post-info">
+                                                    <i class="icon icon-user"></i>
+                                                    <span>Clara Pixley</span>
+                                                </div>
+                                            </div>
+                                            <div class="post-info-block">
+                                                <div class="post-info">
+                                                    <i class="icon icon-event"></i>
+                                                    <span> 2 hours ago</span>
+                                                </div>
+                                                <div class="post-info">
+                                                    <i class="icon icon-phone"></i>
+                                                    <span> 785 485 965</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="product-container-box">
+                                <div class="post-block">
+                                    <a href="#" class="post-img-block">
+                                        <div class="card-opacity"></div>
+                                        <div>
+                                            <img src="./img/business-post.jpeg" class="post-img" alt="">
+                                        </div>
+                                        <span class="post-area">Education</span>
+                                        <div class="post-buttons-block">
+                                            <button type="button" class="post-button">
+                                                <i class="fa fa-pencil"></i>
+                                            </button>
+                                            <button type="button" class="post-button">
+                                                <i class="fa fa fa-heart-o"></i>
+                                            </button>
+                                        </div>
+                                        <div class="ribbon">
+                                            <span>Negotiable</span>
+                                        </div>
+                                    </a>
+        
+                                    <div class="product-container-box">
+                                        <div class="starts-customer stars-post">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="post-name">Record Writing </p>
+                                        <div class="flex-post-info">
+                                            <div class="post-info-block">
+                                                <div class="post-info">
+                                                    <i class="icon icon-location-pin"></i>
+                                                    <span>USA</span>
+                                                </div>
+                                                <div class="post-info">
+                                                    <i class="icon icon-user"></i>
+                                                    <span>Clara Pixley</span>
+                                                </div>
+                                            </div>
+                                            <div class="post-info-block">
+                                                <div class="post-info">
+                                                    <i class="icon icon-event"></i>
+                                                    <span> 2 hours ago</span>
+                                                </div>
+                                                <div class="post-info">
+                                                    <i class="icon icon-phone"></i>
+                                                    <span> 785 485 965</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="search-category-section">
+            <div class="main-container">
+                <div class="product-box">
+                    <div class="product-title-container flex-related">
+                        <h3 class="product-title-box">Related products</h3>
+                        <div class="flex-slider-ui">
+                            <i class="glyphicon glyphicon-th"></i>
+                            <div class="slider-ui-category"></div>
+                            <i class="glyphicon glyphicon-th-large"></i>
+                        </div>
+                    </div>
+    
+                    <div class="product-container-box">
+                        <div class="flex-search-categories">
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <span class="last-price">$79.74</span>
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                                <a href="#" class="button-details">
+                                    <i class="glyphicon glyphicon-arrow-right"></i>
+                                    <span> See Details</span>
+                                </a>
+                            </div>
+                            <div class="search-category-item">
+                                <a href="#">
+                                    <div class="s-category-img-block">
+                                        <img src="./img/categories.jpeg" class="s-category-img" alt="">
+                                    </div>
+                                    <div class="name-category-item">E27 LED Garage Light Bulb 60W Deformable Ceiling Fixture Lights Workshop Lamp</div>
+                                </a>
+                                <div class="price-category-item">
+                                    <strong>$9.59</strong>
+                                    <span class="buy-now">Buy It Now</span>
+                                </div>
+                                <a href="#" class="button-details">
+                                    <i class="glyphicon glyphicon-arrow-right"></i>
+                                    <span> See Details</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="section-subscribe space-section product-subscribe">
+        <div class="main-container">
+            <h2 class="main-title">Subscribe To Our Newsletter</h2>
+            <p class="main-description">Mauris ut cursus nunc. Morbi eleifend, ligula at consectetur vehicula</p>
+
+            <div class="subscribe-form">
+                <div class="sub-input-block">
+                    <input type="text" class="subscribe-input" placeholder="Enter your Email">
+                </div>
+                <div class="sub-button-block">
+                    <button type="button" class="subsribe-button">Subscribe</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="main-container">
+            <div class="top-bar-footer">
+                <a href="#" class="btn-foot-nav">How It Works</a>
+                <a href="#" class="btn-foot-nav mobile-none">About Us</a>
+                <a href="#" class="btn-foot-nav">Pricing</a>
+                <a href="#" class="btn-foot-nav">Listing Categories</a>
+                <a href="#" class="btn-foot-nav">Privacy Policy</a>
+                <a href="#" class="btn-foot-nav">Terms Of Conditions</a>
+                <a href="#" class="btn-foot-nav mobile-none">Blog</a>
+                <a href="#" class="btn-foot-nav mobile-none">Contact Us</a>
+                <a href="#" class="btn-foot-nav mobile-none">Premium Ad</a>
+            </div>
+        </div>
+        <div class="footer-underline"></div>
+        <div class="main-container">
+            <div class="footer-info">
+                <div>
+                    <h2 class="bizdire-footer">BIZDIRE</h2>
+                    <p class="text-footer space-text">At vero eos et accusamus et iusto odio dignissimos ducimus voluptatum</p>
+                    <div class="title-footer">Social Icons</div>
+                    <ul class="footer-social-icons">
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-rss"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-youtube"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a class="footer-social-icon" href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Popular Listings</div>
+                    <ul class="popular-list">
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Educational college</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Free Lancer for Web Developer</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> 2BHK Flat In Hyderabad</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> Best Restaurants in Hyderabad</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-angle-double-right "></i> New Women Shopping Mall</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Get In Touch</div>
+                    <ul class="popular-list">
+                        <li><a href="#" class="text-footer"><i class="fa fa-home me-3 text-secondary"></i> New York, NY 10012, US-52014</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-envelope me-3 fs-12 text-secondary"></i> info12323@example.com</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-phone me-3 text-secondary"></i> + 01 234 567 88, + 01 234 567 88</a></li>
+                        <li><a href="#" class="text-footer"><i class="fa fa-print me-3 text-secondary"></i> + 01 234 567 89, + 01 234 567 89</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="title-footer">Subscribe</div>
+                    <form action="#">
+                        <div class="footer-input-block">
+                            <input type="text" class="footer-input" placeholder="Name">
+                        </div>
+                        <div class="footer-input-block">
+                            <input type="text" class="footer-input" placeholder="Email">
+                        </div>
+                        <div class="footer-subscribe">
+                            <a href="#" class="footer-subscribe-button">Subscribe</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-underline"></div>
+        <div class="main-container">
+            <div class="copyright">
+                Copyright © 2022<a href="#" class="orange"> Bizdire</a>. Designed  with <span class="fa fa-heart orange"></span> by <a href="#" class="orange">Spruko</a> All rights reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/jquery.js"></script>
+
+    <script src="./js/slick.min.js"></script>
+
+    <!--Select2 js -->
+    <script src="./plugins/select2/select2.full.min.js"></script>
+    <script src="./js/select2.js"></script>
+
+    <!--Counters -->
+    <script src="./plugins/counters/counterup.min.js"></script>
+    <script src="./plugins/counters/waypoints.min.js"></script>
+    <script src="./plugins/counters/numeric-counter.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js" integrity="sha512-d6nObkPJgV791iTGuBoVC9Aa2iecqzJRE0Jiqvk85BhLHAPhWqkuBiQb1xz2jvuHNqHLYoN3ymPfpiB1o+Zgpw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./js/main.js"></script>
+
+   <script>
+        $( document ).ready(function() {
+            const dynamicData = [
+                        {price: '$' + 3.2, products: {sales: 3.2, link: 'https://www.searchz.com/'}},
+                        {price: '$' + 4.66, products: {sales: 4.66, link: 'https://www.google.com/'}},
+                        {price: '$' + 7, products: {sales: 7, link: 'https://www.google.com/'}},
+                        {price: '$' + 6, products: {sales: 6, link: 'https://www.youtube.com/'}},
+                        {price: '$' + 5.66, products: {sales: 5.66, link: 'https://www.google.com/'}},
+                        {price: '$' + 8, products: {sales: 8, link: 'https://www.google.com/'}},
+                        {price: '$' + 6.2, products: {sales: 6.2, link: 'https://www.searchz.com/'}},
+                        {price: '$' + 7.6, products: {sales: 7.6, link: 'https://www.google.com/'}},
+                        {price: '$' + 10, products: {sales: 10, link: 'https://www.google.com/'}},
+                        {price: '$' + 9, products: {sales: 9, link: 'https://www.searchz.com/'}},
+                        {price: '$' + 9.2, products: {sales: 9.2, link: 'https://www.google.com/'}},
+                        {price: '$' + 7.8, products: {sales: 7.8, link: 'https://www.google.com/'}},
+                        {price: '$' + 6.4, products: {sales: 6.4, link: 'https://www.searchz.com/'}},
+                        {price: '$' + 5.2, products: {sales: 5.2, link: 'https://www.google.com/'}},
+                        {price: '$' + 8.4, products: {sales: 8.4, link: 'https://www.google.com/'}},
+                        {price: '$' + 6.7, products: {sales: 6.7, link: 'https://www.searchz.com/'}},
+                        {price: '$' + 10.6, products: {sales: 10.6, link: 'https://www.google.com/'}},
+                        {price: '$' + 12, products: {sales: 12, link: 'https://www.google.com/'}}
+                    ];
+
+            const backgroundColor = [];
+
+            for (i=0; i<dynamicData.length; i++) {
+                if (dynamicData[i].products.sales === 9) {
+                    backgroundColor.push('red')
+                }
+                else {
+                    backgroundColor.push('rgb(255, 99, 132)')
+                }
+            }
+
+
+            const data = {
+                datasets: [{
+                    backgroundColor: backgroundColor,
+                    data: dynamicData
+                }]
+            };
+
+            const getOrCreateTooltip = (chart) => {
+                let tooltipEL = chart.canvas.parentNode.querySelector('div');
+                if (!tooltipEL) {
+                    tooltipEL = document.createElement('DIV');
+                    tooltipEL.classList.add('tooltipDesign');
+                    tooltipUL = document.createElement('UL');
+                    tooltipUL.classList.add('tooltipul');
+
+                    tooltipEL.appendChild(tooltipUL);
+                    chart.canvas.parentNode.appendChild(tooltipEL);
+                    //console.log(chart.canvas.parentNode);
+                }
+                return tooltipEL;
+            };
+
+            //trigger
+
+            const externalTooltipHandler = (context) => {
+                const {chart, tooltip} = context;
+                const tooltipEL = getOrCreateTooltip(chart);
+
+                if(tooltip.opacity === 0) {
+                    tooltipEL.style.opacity = 0; 
+                    return;
+                };
+
+                if (tooltip.body) {
+                    const titleLines = tooltip.title || [];
+                    const bodyLines = tooltip.body.map (b => b.lines);
+                    const tooltipLI = document.createElement('LI');
+                    const imageTooltip = document.createElement('img');
+
+                    titleLines.forEach(title => {
+                        tooltipUL.appendChild(tooltipLI);
+                        imageTooltip.src = './img/categories.jpeg'
+                        tooltipLI.appendChild(imageTooltip)
+
+                        const tooltipSpan = document.createElement('SPAN')
+                        tooltipLI.appendChild(tooltipSpan);
+
+                        const tooltipTitle = document.createTextNode(title)
+                        tooltipSpan.appendChild(tooltipTitle)
+                    });
+
+                    const tooltipBodyName = document.createElement('P');
+                    bodyLines.forEach((body, i) => {
+                        const colors = tooltip.labelColors[i];
+                        
+                        const textLabel = document.createTextNode('The old gold days')
+                        
+                        tooltipBodyName.appendChild(textLabel)
+                    });
+
+                    const ULnode = tooltipEL.querySelector('ul')
+
+                    while(ULnode.firstChild) {
+                        ULnode.firstChild.remove();
+                    }
+
+                    ULnode.appendChild(tooltipLI);
+                    tooltipLI.appendChild(tooltipBodyName)
+                    tooltipEL.style.opacity = 1; 
+
+                    const { offsetLeft: positionX, offsetTop: positionY } = chart.canvas;
+                    tooltipEL.style.left = positionX + tooltip.caretX + 'px';
+                    tooltipEL.style.top = positionY + tooltip.caretY + 'px';
+                    tooltipEL.style.font = tooltip.options.bodyFont.string;
+                    tooltipEL.style.padding = tooltip.options.padding + 'px' + tooltip.options.padding + 'px';
+                }
+
+                console.log(tooltip.title)
+            }
+
+            const config = {
+                type: 'bar',
+                data: data,
+                options: { 
+                    parsing: {
+                        xAxisKey: 'price',
+                        yAxisKey: 'products.sales',
+                    },
+                    scales: {
+                        x: {
+                            min: 0,
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled:false,
+                            external: externalTooltipHandler
+                        }, 
+                        hover: {mode: null},
+                    }
+                }
+                
+            };
+            
+            const ctx = document.getElementById('myChart');
+            const myChart = new Chart(
+                ctx,
+                config
+            );
+
+
+
+            function clickHandler(click) {
+                const points = myChart.getElementsAtEventForMode(click, 'nearest', { intersect: true }, true);
+                if (points.length) {
+                    const firstPoint = points[0];
+                    const value = myChart.data.datasets[firstPoint.datasetIndex].data[firstPoint.index];
+
+                    window.open(value.products.link)
+                }
+            }
+            ctx.onclick = clickHandler;
+
+
+
+            $('.post-slider').slick(
+                {
+                    infinite: true,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000
+                }
+            );
+
+            $('.slider-related-post').slick(
+                {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    responsive: [
+                        {
+                            breakpoint: 530,
+                            settings: {
+                            slidesToShow: 1
+                            }
+                        }
+                    ]
+                }
+            );
+
+            $('.big-slider-product').slick(
+                {
+                    infinite: true,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    //autoplay: true,
+                    autoplaySpeed: 5000,
+                    fade: true,
+                    adaptiveHeight: true,
+                    asNavFor: '.small-slider-product'
+                }
+            );
+
+            $('.small-slider-product').slick(
+                {
+                    infinite: true,
+                    arrows: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    //autoplay: true,
+                    adaptiveHeight: true,
+                    centerPadding: '90px',
+                    autoplaySpeed: 5000,
+                    asNavFor: '.big-slider-product',
+                    centerMode: true,
+                    focusOnSelect: true,
+                    responsive: [
+                        {
+                        breakpoint: 1180,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                        },
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                        },
+                        {
+                            breakpoint: 530,
+                            settings: {
+                            slidesToShow: 2
+                            }
+                        }
+                    ]
+                }
+            );
+
+
+
+            $('.slider-ui-category').slider({
+                max: 8,
+                value: 3,
+                slide: function(event, ui){
+                    if (ui.value == 0) {
+                        $('.search-category-item').css('width', '6.25%'); 
+                        $('.s-category-img').css('height', '55px');
+                    }
+                    else if (ui.value == 1) {
+                        $('.search-category-item').css('width', '7.14%'); 
+                        $('.s-category-img').css('height', '70px');
+                    }
+                    else if (ui.value == 2) {
+                        $('.search-category-item').css('width', '8.33%'); 
+                        $('.s-category-img').css('height', '90px');
+                    }
+                    else if (ui.value == 3) {
+                        $('.search-category-item').css('width', '11.1%'); 
+                        $('.s-category-img').css('height', '120px');
+                    }
+                    else if (ui.value == 4) {
+                        $('.search-category-item').css('width', '12.5%'); 
+                        $('.s-category-img').css('height', '130px');
+                    }
+                    else if (ui.value == 5) {
+                        $('.search-category-item').css('width', '14.27%');
+                        $('.s-category-img').css('height', '145px'); 
+                    }
+                    else if (ui.value == 6) {
+                        $('.search-category-item').css('width', '16.65%'); 
+                        $('.s-category-img').css('height', '165px'); 
+                    }
+                    else if (ui.value == 7) {
+                        $('.search-category-item').css('width', '19.95%'); 
+                        $('.s-category-img').css('height', '180px'); 
+                    }
+                    else if (ui.value == 8) {
+                        $('.search-category-item').css('width', '24.95%'); 
+                        $('.s-category-img').css('height', '215px'); 
+                    }
+                }
+
+            });
+        
+            $('.slider').slider({
+                values: [0, 100],
+                slide: function(event, ui){
+                    $('.expand-me').css('width', ui.value + '%');
+                } 
+            });
+
+        });
+ 
+    </script>
+</body>
+</html>
