@@ -50,6 +50,7 @@ h3 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
+    line-height: 1.25;
 }
 
 .title-name span:nth-child(2) {
